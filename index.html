@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- css -->
+<link href="./css/reset.css" rel="stylesheet">
+<link href="./css/common.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Fade in animation</h1>
+    </header>
+    <section>
+        <h2>ウィンドウ読み込みで発火するアニメ</h2>
+      <p class="mv_fade_in u-fade-type-static js-window-trigger">サンプル</p>
+      その場で浮き上がる
+      <p class="mv_fade_in u-fade-type-up js-window-trigger">サンプル</p>
+      下がりながら浮き上がる
+      <p class="mv_fade_in u-fade-type-down js-window-trigger">サンプル</p>
+      上がりながら浮き上がる
+      </section>
+      <section>
+          <h2>スクロールイベントで発火するアニメ</h2>
+          <div class="fade_in u-fade-type-left js-scroll-trigger"></div>
+          <div class="fade_in u-fade-type-right js-scroll-trigger"></div>
+          <div class="fade_in u-fade-type-left js-scroll-trigger"></div>
+          <div class="fade_in u-fade-type-right js-scroll-trigger"></div>
+      </section>
+      <!-- js -->
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
