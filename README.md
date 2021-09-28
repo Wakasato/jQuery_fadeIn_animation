@@ -5,10 +5,10 @@ jQuery scroll event animation and documentReady animation
 https://moshashugyo.com/media/animate-on-scroll<br>
 こちらのコードを参考にしながら作りました。ありがとうございます。<br>
 
-##　jQueryでよく使う動きをまとめたコードです。
+## jQueryでよく使う動きをまとめたコードです。
 以下の２種類を作りました。<br>
 1.ウィンドウを読み込んだらフェードインするアニメ<br>
-2.２スクロールイベントでフェードインするアニメ<br>
+2.スクロールイベントでフェードインするアニメ<br>
 
 ## 使い方
 動かしたい要素に「js-scroll-trigger」のCSSクラスをつけてください。<br>
@@ -16,7 +16,7 @@ https://moshashugyo.com/media/animate-on-scroll<br>
 「動かし方」と「現れ方」について2種のクラスがあります。<br>
 それぞれから１つのクラスを選んで、組み合わせて使ってください。<br>
 
-## 現れ方
+### 現れ方
 *ウィンドウを読み込んだ時点でフェードイン<br>
 .mv_fade_in<br>
 <br>
@@ -38,3 +38,6 @@ https://moshashugyo.com/media/animate-on-scroll<br>
 <br>
 *静止してフェードイン<br>
 .u-fade-type-static<br>
+
+それぞれの組み合わせのサンプルが以下になります。
+https://wakasato.github.io/jQuery_fadeIn_animation/
